@@ -11,7 +11,7 @@ Make sure nginx package is already installed on your system.
 
     cd /etc
     mv nginx nginx.dist
-    git clone git://github.com/hron84/nginx-configs.git nginx
+    git clone https://github.com/nevergone/nginx-configs nginx
 
 After it, check the original nginx.conf (in nginx.dist/nginx.conf) and
 if it is needed modify pid file and logging directory location if your 
@@ -35,6 +35,6 @@ Bugs and support
 ----------------
 
 If you have a trouble with using of this layout or need help
-with it, feel free to use GitHub [issue tracker](https://github.com/hron84/nginx-configs/issues).
+with it, feel free to use GitHub [issue tracker](https://github.com/nevergone/nginx-configs/issues).
 
 Do it if you have an idea how can I improve this layout.
